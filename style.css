@@ -1,0 +1,90 @@
+/* style.css */
+
+/* Reset and general styling rules */
+.container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcd6e7; /* Light pink background */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ff7eb9; /* Vibrant pink header background */
+    padding: 40px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Comic Sans MS', sans-serif; /* Fun and playful font */
+}
+
+h1 {
+    color: #fff; /* White text color for main heading */
+}
+
+h2 {
+    color: #ff7eb9; /* Dark pink for subheadings */
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    padding: 40px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 100px;
+}
+
+#about, #career-transition {
+    background-color: #fce4ec; /* Light pink section background */
+    border-radius: 20px; /* Rounded corners */
+    margin-bottom: 40px;
+}
+
+#skills-showcase {
+    background-color: #ffd3e7; /* Light pink section background */
+    border-radius: 20px; /* Rounded corners */
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #ff7eb9; /* Vibrant pink footer background */
+    padding: 40px;
+    text-align: center;
+}
+
+a {
+    color: #333; /* Dark text color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff7eb9; /* Pink color on hover */
+}
+
+/* CSS for Read More Section */
+#read-more {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add
